@@ -4,10 +4,10 @@ USE codeup_test_db;
 
 CREATE TABLE albums (
     id INT UNSIGNED NOT NULL Auto_increment,
-    artist VARCHAR(50),
-    name VARCHAR(50) NOT NULL,
+    artist VARCHAR(60),
+    name VARCHAR(75) NOT NULL,
     release_date INT,
     sales float,
-    genre VARCHAR(25),
+    genre VARCHAR(35),
     PRIMARY KEY(id)
 );
